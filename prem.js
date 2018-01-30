@@ -1,10 +1,10 @@
 $('document').ready(function() {
 
     var webAuth = new auth0.WebAuth({
-        domain: "guitarlanguage1.auth0.com",
-        clientID: "4hRXe3NFu3pVA0v5T15a4JKszEzscDPI",
-        redirectUri: "https://hardcore-mclean-08fd79.netlify.com/premium.html",
-        audience: 'https://' + "guitarlanguage1.auth0.com" + '/userinfo',
+        domain: "guitarlanguage.auth0.com",
+        clientID: "y8AA4z9Gre45oDzkbPIjJTM4RnE36HJG",
+        redirectUri: "https://cocky-sinoussi-e4da0e.netlify.com/",
+        audience: 'https://' + "guitarlanguage.auth0.com" + '/userinfo',
         responseType: 'token id_token',
         scope: 'openid'
     });
