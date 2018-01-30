@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
+
+    <title>Guitar Language Series</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- auth0 cdn -->
+    <script src="https://cdn.auth0.com/js/auth0/9.0.1/auth0.min.js"></script>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Joti+One" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/sticky-footer-navbar.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Fixed navbar -->
+    <div class="jumbotron jumbotron-fluid">
+        <h1 id="brand">Guitar Language Series</h1>
+        <blockquote>
+            <h5 class"text-center quote">-"Full Guitar Immersion"</h5>
+        </blockquote>
+
+    </div>
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse  bg-inverse">
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <!--    <a href="#">GLS</a>-->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <button id="authLogin" class="btn">Login / Sign Up</button>
+                </li>
+                <li class="nav-item active">
+                    <a href="https://guitarlanguage.github.io/triviaGame/"  target="_blank"><button id="trivia" class="btn">Guitar Trivia</button></a>
+                </li>
+               <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>-->
+            </ul>
+            <!-- <form class="form-inline mt-2 mt-md-0">
+
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>-->
+        </div>
+    </nav>
+
+    <!-- Begin page content -->
+    <div class="container">
+        <div class="row">
+            <p>Subscribe to learn how to play the guitar. Stop by and watch a variety of videos that will provide guitar lessons to any type of guitarist. Whether you are a beginner, intermediate or advanced guitar player, there is something here for everyone.
+                Pay a small fee to gain access to a library of videos to help you master the guitar.
+
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <!--start content -->
+                <div class="item">
+                    <h2>Oh By Jingo</h2>
+                  <iframe class="img-responsive" style="width:100%" src="https://www.youtube.com/embed/WDYQ_3Ib808" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+                <div class="item">
+                    <h2>Sunny Tutorial</h2>
+                    <iframe style="width:100%" src="https://www.youtube.com/embed/oSWXZxi-dqM" frameborder="0" allowfullscreen></iframe>
+                </div>
+                
+                <div class="item">
+                    <h2><span class="panel-heading text-center">I Will Tutorial</span></h2>
+                    <iframe style="width:100%" src="https://www.youtube.com/embed/U1EIjWW_H1E" frameborder="0" allowfullscreen></iframe>
+              </div>
+                
+                <div class="item">
+                    <h2>Blues Champion</h2>
+                   <iframe style="width:100%" src="https://www.youtube.com/embed/rihaU4KWoEY" frameborder="0" allowfullscreen></iframe>
+                </div>
+                
+                <div class="item">
+                    <h2>I'm Just a Bill</h2>
+                   <iframe style="width:100%" src="https://www.youtube.com/embed/SQ7jQ3mhUog" frameborder="0" allowfullscreen></iframe>
+                </div>
+                
+                <div class="item">
+                    <h2>Sublime: What I Got solo</h2>
+                   <iframe style="width:100%" src="https://www.youtube.com/embed/KMqOf9tq3wc" frameborder="0" allowfullscreen></iframe>
+                </div>
+       
+          </div>
+            <div id="sidebar" class="col-md-4">
+                <!--start sidebar -->
+                <div class="row">
+                    <h3>Find a local music shop</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11849.271389595224!2d-87.675877!3d42.057806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ed194bb956cab66!2sNorthwestern+University+Technological+Institute!5e0!3m2!1sen!2sus!4v1517075275465"
+                        width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="row">
+                    <h3>Pay in Bitcoin</h3>
+                    <!-- Bitcoin Information -->
+                    <div id="bit-div"></div>
+                    <div id="bit-ask"></div>
+                    <div id="bit-bid"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+      
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Guitar Language Series <a href="https://guitarlanguage.github.io/GalacticFish/" target="_blank">&copy;</a> 2018</span>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <!-- <script src="../../dist/js/bootstrap.min.js"></script> -->
+    <!-- auth0 cdn -->
+    <script src="https://cdn.auth0.com/js/auth0/9.0.1/auth0.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+    <script src="app.js"></script>
+</body>
+
+
+</html>
